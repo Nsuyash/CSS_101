@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <style>
+
+        :root{
+            --primary-color:#6b7280;
+        }
+        body{
+            font-family: 'Tilt Neon', sans-serif;
+            margin: 0; 
+            padding: 0;
+        }
+
+        nav{
+            background-color: var(--primary-color);
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav .head{
+            color: white;
+            font-size: x-large;
+            padding: 1rem;
+        }
+
+        header{
+            align-content: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        header img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        section{
+            margin: 1rem;
+            padding: 2.5rem;
+            text-align: center;
+        }
+
+        .off-section{
+            background-color: #f3f4f6;
+            border-radius: 0.5rem;
+            padding: 1rem;
+        }
+        .off-section .non-bullets{
+            list-style-type: none;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20%;
+           
+        }
+
+        .off-section .non-bullets .inline-block{
+            margin-top: 1rem;
+            padding: 0.5rem;
+            background-color: var(--primary-color);
+            border-radius: 0.5rem;
+            color: white;
+        }
+
+        footer{
+            background-color: var(--primary-color);
+            padding: 2rem;
+            text-align: center;
+            color: white;
+        }
+
+    </style>
+  </head>
+  <body>
+    <nav>
+        <div class="head">Welcome to My Page</div>
+
+    </nav>
+
+    <header>
+        <img src="/images/css101.svg" />      
+    </header>
+    <main class="main-content">
+
+      <section>
+        <div class="white-section">
+            <h2>About Me</h2>
+        <p>
+          Hello, World! I love coding. I am here to learn CSS.
+        </p>
+        </div>
+      </section>
+
+      <section>
+        <div class="off-section">
+        <h2>My Interests</h2>
+        <ul class="non-bullets">
+          <li class="inline-block">Listening music</li>
+          <li class="inline-block">Watching movies</li>
+          <li class="inline-block">Learning new technology</li>
+        </ul>
+        </div>
+        
+      </section>
+
+    </main>
+    <footer>
+      <p>&copy; 2023 My Page. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
